@@ -2,7 +2,7 @@ import java.util.Scanner;
 //great job khalid, thanks for your hard work
 //your grade is 4.5/5
 //@ change the class name Main to match the file name Assignment1 ( golden rule )
-class Main {
+class Assignment1 {
   public static void main(String[] args) {     
     Scanner twonumbers = new Scanner(System.in);
     System.out.println("Enter two float digits :"); 
