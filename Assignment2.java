@@ -13,7 +13,7 @@ public class Assignment2 {
             char chrplayer = strplayer.charAt(0);
             char computerChoice = computerPlays.charAt(rnd.nextInt(computerPlays.length()));
             //Check the input
-            if ((chrplayer != 'r') && (chrplayer != 'p') && (chrplayer != 's')){
+            if((chrplayer != 'r') && (chrplayer != 'p') && (chrplayer != 's')){
                 break;
             }
             //If player won
