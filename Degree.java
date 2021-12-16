@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Degree {
+public class Degree{
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a number from 0 to 100");
