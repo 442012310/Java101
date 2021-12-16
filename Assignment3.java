@@ -54,7 +54,7 @@ public class Assignment3{
 
         static void max(String course, int[] ids, String[] studentsName, String[] courses, int[] grades) {
                 //start the loop from 0 to ids length
-                int n =5;
+                int n = 5;
                 int m = 0;
                 for (int index = 0; index < ids.length; ++index) {
                         //if the courses at index equals to the course then print his course and grade
@@ -68,8 +68,8 @@ public class Assignment3{
 
         static void min(String course, int[] ids, String[] studentsName, String[] courses, int[] grades) {
                 //start the loop from 0 to ids length
-                int a= 100;
-                int s=0;
+                int a = 100;
+                int s = 0;
                 for (int index = 0; index < ids.length; ++index) {
                         //if the courses at index equals to the course then print his course and grade
                         if ( a > grades[index] & courses[index].equals(course)) {
